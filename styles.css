@@ -1,0 +1,148 @@
+body {
+  text-align: center;
+  background-color: #283149;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+h2 {
+  font-size: 2rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+.pic-column{
+  padding: 0;
+}
+
+.a {
+background-image: url("images/tom1.png");
+background-size: 180px;
+}
+
+.b {
+background-image: url("images/tom2.png");
+background-size: 75px;
+}
+
+.c {
+background-image: url("images/tom3.png");
+background-size: 75px;
+}
+
+.d {
+background-image: url("images/tom4.png");
+background-size: 75px;
+}
+
+.e {
+background-image: url("images/snare.png");
+background-size: 150px;
+}
+.f {
+background-image: url("images/crash.png");
+background-size: 150px;
+}
+.set {
+  margin: 4% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drumcss {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 2rem;
+  font-family: 'Arvo', cursive;
+  line-height: 6;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+.stpBtn{
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+    background-color: white;
+    text-align: center;
+      border: 4px solid #404B69;
+      font-weight: 900;
+      font-size: 1.5rem;
+      margin-bottom: 50px;
+}
+@media (max-width:1028px){
+  h1{
+    font-size: 7rem;
+    margin-top: 50px;
+  }
+  h2{
+    font-size: 4rem;
+  }
+  footer{
+    font-size: 2rem;
+  }
+.drumcss{
+  margin-top: 30px;
+  width: 400px;
+  height: 400px;
+}
+.a {
+    font-size: 0px;
+background-size: 500px;
+}
+
+.b {
+    font-size: 0px;
+background-size: 200px;
+}
+
+.c {
+    font-size: 0px;
+background-size: 200px;
+}
+
+.d {
+    font-size: 0px;
+background-size: 200px;
+}
+
+.e {
+    font-size: 0px;
+background-size: 400px;
+}
+.f {
+    font-size: 0px;
+background-size: 400px;
+}
+.stpBtn{
+    font-size: 3rem;
+}
+}
